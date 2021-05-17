@@ -1,0 +1,132 @@
+/* Обнуление */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(248, 244, 184);
+}
+
+/* Стили */
+
+.wrapper {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.title,
+.subtitle {
+    margin: 0 0 20px 0;
+    text-shadow: 1px 1px 1px rgb(151, 146, 138);
+}
+
+.header,
+.footer,
+.price thead {
+    background: #f8aa03;
+}
+
+/* header */
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-item {
+    padding: 20px 5px;
+    margin-left: 15px;
+}
+
+.menu-link {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    opacity: .8;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    border-right: 1px dashed #f8aa03;
+    border-left: 1px dashed #f8aa03;
+}
+
+/* Content */
+
+.content {
+    padding: 20px 15px;
+    width: 600px;
+    background: rgb(255, 235, 145);
+}
+
+.content-text {
+    margin: 0 0 15px 0;
+    text-align: justify;
+}
+
+.content-img {
+    width: 500px;
+}
+
+.content-img img {
+    display: block;
+    max-width: 100%;
+}
+
+.content-img + p {
+    margin-top: 15px;
+}
+
+.price {
+    margin: 0 0 15px 0;
+    width: 500px;
+    text-align: center;
+}
+
+.price th,
+.price td {
+    padding: 5px;
+}
+
+.price td {
+    background: #f8c556;
+}
+
+/* Right */
+
+.right {
+    width: 300px;
+    background: rgb(248, 225, 124);
+    padding: 20px 10px;
+    border-left: 1px dashed #f8aa03;
+    box-sizing: border-box;
+}
+
+.right-list {
+    list-style: none;
+    text-align: justify;
+}
+
+.right li {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 25px 0;
+    text-align: center;
+    color: #fff;
+}
